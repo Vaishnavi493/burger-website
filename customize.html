@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brrrgrrr - Create Your Own Burger</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body{
+        background-image: url('https://t4.ftcdn.net/jpg/02/27/02/45/360_F_227024545_JFQYgc6RvflVe3x4cDbIpFSFG2qloasx.jpg');
+        background-size: cover;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="menu.html">Menu</a></li>
+            <li class="active"><a href="customize.html">Customize</a></li>
+            <li ><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  <section class="customize">
+    <h1>Brrrgrrr - Create Your Own Burger</h1>
+  <h2>Choose the ingredients you want and customize yours</h2>
+
+  <h2>Choose Ingredients:</h2>
+  <div id="ingredients">
+    <input type="checkbox" name="ingredient" value="lettuce"> Lettuce<br>
+    <input type="checkbox" name="ingredient" value="tomato"> Tomato<br>
+    <input type="checkbox" name="ingredient" value="cheese"> Cheese<br>
+    <input type="checkbox" name="ingredient" value="onion"> Onion<br>
+    <input type="checkbox" name="ingredient" value="pickles"> Pickles<br>
+  </div>
+
+  <h2>Your Burger:</h2>
+  <ul id="burger"></ul>
+
+  <button id="createBurgerBtn">Create Burger</button>
+
+  <script src="script.js"></script>
+
+  </section>
+</body>
+</html>
